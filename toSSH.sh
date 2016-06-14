@@ -1,5 +1,5 @@
 #! /usr/bin/expect -f
-spawn scp files url
+spawn scp -rp ./ REMOTE_URL
 # expect "Password:"
 # send "hongying@3\n"
 
